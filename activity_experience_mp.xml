@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExperienceMP"
+    android:orientation="vertical"
+    android:background="@drawable/upper">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:background="@drawable/chappan"
+            android:contentDescription="@string/NightTourism"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="@string/NightTourism"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:background="@drawable/sachinight"
+            android:contentDescription="@string/SoundandLightShows"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="@string/SoundandLightShows"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:background="@drawable/karmadance"
+            android:contentDescription="@string/MusicandDance"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="@string/MusicandDance"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:background="@drawable/shopping"
+            android:contentDescription="@string/Shopping"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="@string/Shopping"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:background="@drawable/artcraft"
+            android:contentDescription="@string/ArtandCraft"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="@string/ArtandCraft"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:background="@drawable/safari"
+            android:contentDescription="@string/Adventure"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="@string/Adventure"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:background="@drawable/food"
+            android:contentDescription="@string/Food"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="@string/Food"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp">
+
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:textAlignment="center"
+            android:background="@drawable/bike"
+            android:contentDescription="@string/PlaceOnWheels"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="@string/PlaceOnWheels"/>
+    </LinearLayout>
+
+        </LinearLayout>
+        </ScrollView>
+
+</LinearLayout>
